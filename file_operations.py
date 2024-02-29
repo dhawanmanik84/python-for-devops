@@ -14,7 +14,7 @@ def update_server_config(file_path, key, value):
             else:
                 file.write(line)
 
-server_config_file = 'server.conf'
+server_config_file = 'server.conf-fileoperations'
 key_to_update = 'MAX_CONNECTIONS'
 new_value = '600'
 
